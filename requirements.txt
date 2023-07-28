@@ -1,0 +1,12 @@
+pydantic~=1.10.8
+requests
+uvicorn~=0.23.1
+fastapi~=0.100.0
+python-dotenv==1.0.0
+langchain
+pymilvus
+sentence_transformers
+sqlalchemy
+pymysql
+# Testing dependencies
+pytest
