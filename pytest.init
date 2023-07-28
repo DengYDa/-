@@ -1,0 +1,7 @@
+[pytest]
+addopts = -s # 输出打印信息不截断
+log_cli = 1 # 启用日志记录到终端
+log_cli_level = INFO # 日志级别为INFO
+log_cli_format = %(asctime)s | %(levelname)s | %(name)s | thread-%(thread)d | %(pathname)s:%(lineno)d | %(message)s # 日志格式
+log_cli_date_format= %Y-%m-%d %H:%M:%S # 日期格式
+#testpaths = D:\Work\nvwa-assistant\Config
