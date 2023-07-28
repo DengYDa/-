@@ -1,7 +1,6 @@
 import pytest
 import requests
 import os
-import json
 from datetime import datetime
 from Config.Config import CFG, ROOT_PATH
 
