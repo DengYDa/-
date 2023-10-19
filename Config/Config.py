@@ -25,6 +25,16 @@ class Config():
         #claude2的接口
         self.LAF_CLAUDE2 = os.getenv("LAF_CLAUDE2", None)
 
+        #cookie
+        self.COOKIE = os.getenv('cookie')
+
+        #百度智能云相关信息
+        self.client_id = os.getenv('client_id',None)
+        self.client_secret = os.getenv('client_secret',None)
+
+        self.speech_realtime_ID = os.getenv('speech_realtime_ID',None)
+        self.speech_realtime_Key = os.getenv('speech_realtime_Key', None)
+
 
 
 
